@@ -6,7 +6,6 @@ interface Shape{
         System.out.print("--- 다시 그립니다.");    draw();
     }
 }
-
  
 class Circle implements Shape {
     private int size=0;
@@ -19,7 +18,6 @@ class Circle implements Shape {
         return calCircle;
     }
 }
-
 class Oval implements Shape{
     private int x;
     private int y;
@@ -33,7 +31,6 @@ class Oval implements Shape{
     public double getArea() {
         double calOval = x * y * PI;
         return calOval;
-        
     }
 }
 class Rect implements Shape{
